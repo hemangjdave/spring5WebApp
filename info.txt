@@ -1,0 +1,11 @@
+Add this line to application.properties to enable h2 in memory db support.
+spring.h2.console.enabled = true
+
+
+after server starts up.
+
+1)hit the following url.
+localhot:8080/h2-console (this is mandatory to run the h2 db.)
+
+2)Make sure the db url is as shown below.
+jdbc:h2:mem:testdb
